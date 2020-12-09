@@ -1,4 +1,4 @@
-# Trello CLI program
+# lyrAvCount CLI program
 
 A simple CLI program which, when given the name of an artist, will produce the average
 number of words in their songs. The program can list multiple artists at once via `-c` arguments (these can be provided multiple times). The final output shows how many songs the artist has and how many of the lyrics for these songs were successfully found in the database.
