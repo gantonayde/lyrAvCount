@@ -28,10 +28,10 @@ Using `pip install requests, matplotlib` should be enough to get you going. Howe
 usage: `python3 lyrAvCount.py [-h] -a [-c] [-p]`
 
 optional arguments:
-  -h, --help       show this help message and exit
-  -a , --artist    artist name, i.e. 'OneRepublic', 'Dua Lipa'
-  -c , --compare   compare with another artist, i.e. 'Imagine Dragons', 'Ava Max' (argument can be used multiple times)
-  -p, --plot       plot lyrics count statistics
+-  -h, --help       show this help message and exit
+-  -a , --artist    artist name, i.e. 'OneRepublic', 'Dua Lipa'
+-  -c , --compare   compare with another artist, i.e. 'Imagine Dragons', 'Ava Max' (argument can be used multiple times)
+-  -p, --plot       plot lyrics count statistics
 
 Example usage: `python3 .\lyrAvCount.py -a 'Dua Lipa' -c 'Imagine Dragons' -c 'OneRepublic' -p`
 This should display the average count for the three artists and plot the data on three graphs. Only the `-a` argument is mandatory, hence `python3 .\lyrAvCount.py -a 'Coldplay'` will also work.
